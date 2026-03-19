@@ -1,0 +1,109 @@
+[
+        {
+            "code": 1300,
+            "account": "Prepaid Expenses (General)",
+            "category": "Prepaid"
+        },
+
+        {
+            "code": 1310,
+            "account": "Prepaid Software",
+            "category": "Prepaid"
+        },
+
+        {
+            "code": 1320,
+            "account": "Prepaid Insurance",
+            "category": "Prepaid"
+        },
+
+        {
+            "code": 1500,
+            "account": "Fixed Assets",
+            "category": "Asset"
+        },
+
+        {
+            "code": 2100,
+            "account": "Accrued Expenses (General)",
+            "category": "Accrual"
+        },
+
+        {
+            "code": 2110,
+            "account": "Accrued Professional Services",
+            "category": "Accrual"
+        },
+
+        {
+            "code": 5000,
+            "account": "Office Supplies",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5010,
+            "account": "Software and Subscriptions",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5020,
+            "account": "Cloud Hosting and Infrastructure",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5030,
+            "account": "Professional Services - Legal",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5040,
+            "account": "Professional Services - Consulting",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5050,
+            "account": "Marketing & Advertising",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5060,
+            "account": "Travel & Entertainment",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5070,
+            "account": "Facilities & Maintenance",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5080,
+            "account": "Training & Development",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5090,
+            "account": "Telecom & Internet",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5100,
+            "account": "Insurance Expense",
+            "category": "Expense"
+        },
+
+        {
+            "code": 5110,
+            "account": "Equipment (under $5,000)",
+            "category": "Expense"
+        }
+    ]

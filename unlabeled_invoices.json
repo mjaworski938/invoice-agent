@@ -1,0 +1,180 @@
+[
+  {
+    "invoice_number": "UL-1",
+    "vendor_name": "DataSync Pro",
+    "po_number": "PO-2026-077",
+    "date": "Feb 15, 2026",
+    "dept": "Engineering",
+    "total": 24000.0,
+    "line_items": [
+      {
+        "description": "Annual Platform License (Feb 26–Jan 27)",
+        "amount": 18000.0,
+        "expected_gl": 1310,
+        "treatment": "Prepaid"
+      },
+      {
+        "description": "Premium Support & Implementation Services",
+        "amount": 6000.0,
+        "expected_gl": 5010,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-2",
+    "vendor_name": "WeWork",
+    "po_number": "PO-2026-081",
+    "date": "Mar 1, 2026",
+    "dept": "Operations",
+    "total": 4500.0,
+    "line_items": [
+      {
+        "description": "Monthly hot desk membership – 15 seats, Mar 2026",
+        "amount": 4500.0,
+        "expected_gl": 5020,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-3",
+    "vendor_name": "TalentBridge Partners",
+    "po_number": "PO-2026-090",
+    "date": "Feb 28, 2026",
+    "dept": "Engineering",
+    "total": 25000.0,
+    "line_items": [
+      {
+        "description": "Placement fee – Senior Software Engineer",
+        "amount": 25000.0,
+        "expected_gl": 5030,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-4",
+    "vendor_name": "Global Tech Summit",
+    "po_number": "PO-2026-085",
+    "date": "Mar 5, 2026",
+    "dept": "Engineering",
+    "total": 6800.0,
+    "line_items": [
+      {
+        "description": "Conference registration (2 attendees)",
+        "amount": 3600.0,
+        "expected_gl": 5040,
+        "treatment": "Immediate Expense"
+      },
+      {
+        "description": "Flight + hotel – SF, 3 nights",
+        "amount": 3200.0,
+        "expected_gl": 5060,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-5",
+    "vendor_name": "RenewTech",
+    "po_number": "PO-2026-092",
+    "date": "Mar 10, 2026",
+    "dept": "Operations",
+    "total": 4500.0,
+    "line_items": [
+      {
+        "description": "Refurbished Dell 27 monitors (10x $450)",
+        "amount": 4500.0,
+        "expected_gl": 5110,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-6",
+    "vendor_name": "Cloudflare",
+    "po_number": "PO-2026-055",
+    "date": "Jan 10, 2026",
+    "dept": "Engineering",
+    "total": 500.0,
+    "line_items": [
+      {
+        "description": "Domain renewal – 1 year",
+        "amount": 200.0,
+        "expected_gl": 5010,
+        "treatment": "Immediate Expense"
+      },
+      {
+        "description": "SSL certificate – wildcard, 1 year",
+        "amount": 300.0,
+        "expected_gl": 5010,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-7",
+    "vendor_name": "Sarah Chen Design LLC",
+    "po_number": "PO-2026-088",
+    "date": "Feb 20, 2026",
+    "dept": "Marketing",
+    "total": 8000.0,
+    "line_items": [
+      {
+        "description": "Brand identity redesign – logo, guidelines, assets",
+        "amount": 8000.0,
+        "expected_gl": 5050,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-8",
+    "vendor_name": "ModernSpace Builders",
+    "po_number": "PO-2026-095",
+    "date": "Mar 15, 2026",
+    "dept": "Operations",
+    "total": 12000.0,
+    "line_items": [
+      {
+        "description": "Open floor plan conversion – demolition & rebuild",
+        "amount": 12000.0,
+        "expected_gl": 1500,
+        "treatment": "Capitalize"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-9",
+    "vendor_name": "Twilio Inc.",
+    "po_number": "PO-2026-060",
+    "date": "Feb 28, 2026",
+    "dept": "Engineering",
+    "total": 2300.0,
+    "line_items": [
+      {
+        "description": "SMS API overage – Feb 2026 (usage-based)",
+        "amount": 2300.0,
+        "expected_gl": 5010,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  },
+  {
+    "invoice_number": "UL-10",
+    "vendor_name": "Fresh Bites Catering",
+    "po_number": "PO-2026-098",
+    "date": "Mar 8, 2026",
+    "dept": "Marketing",
+    "total": 1500.0,
+    "line_items": [
+      {
+        "description": "Catering – product launch celebration (75 guests)",
+        "amount": 1500.0,
+        "expected_gl": 5000,
+        "treatment": "Immediate Expense"
+      }
+    ]
+  }
+]

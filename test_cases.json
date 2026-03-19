@@ -1,0 +1,158 @@
+[
+    {
+        "invoice_number": "INV-001",
+        "vendor_name": "Cloudware Solutions",
+        "po_number": "PO-2026-044",
+        "date": "2026-01-05",
+        "service_period": null,
+        "dept": "Engineering",
+        "total": 24000,
+        "line_items": [
+            {
+                "description": "Annual Platform License (Jan–Dec 2026)",
+                "amount": 24000,
+                "treatment": "Prepaid — amortize $2K/mo to 5010",
+                "expected_gl": 1310
+            }
+        ],
+        "dry_run": true
+    },
+    
+    {
+        "invoice_number": "INV-002",
+        "vendor_name": "Morrison & Burke LLP",
+        "po_number": "PO-2026-051",
+        "date": "2026-01-20",
+        "service_period": null,
+        "dept": "Legal",
+        "total": 9500,
+        "line_items": [
+            {
+                "description": "Patent filing & prosecution",
+                "amount": 4500,
+                "treatment": "Expense",
+                "expected_gl": 5030
+            },
+            {
+                "description": "Regulatory compliance review & advisory",
+                "amount": 3200,
+                "treatment": "Expense",
+                "expected_gl": 5040
+            },
+            {
+                "description": "Patent filing & prosecution",
+                "amount": 1800,
+                "treatment": "Expense",
+                "expected_gl": 5030
+            }
+        ]
+    },
+
+    {
+        "invoice_number": "INV-003",
+        "vendor_name": "TechDirect Inc.",
+        "po_number": "PO-2026-038",
+        "date": "2026-02-01",
+        "service_period": null,
+        "dept": "Engineering",
+        "total": 49900,
+        "line_items": [
+            {
+                "description": "MacBook Pro 14\" (3x $1,800)",
+                "amount": 5400,
+                "treatment": "Expense (unit cost < $5K)",
+                "expected_gl": 5110
+            },
+            {
+                "description": "Dell PowerEdge R760 Server",
+                "amount": 8500,
+                "treatment": "Capitalize (unit cost ≥ $5K) ",
+                "expected_gl": 1500
+            },
+            {
+                "description": "Prepaid — amortize $3K/mo to 5020",
+                "amount": 36000,
+                "treatment": "Expense",
+                "expected_gl": 1300
+            }
+        ]
+    },
+
+    {
+        "invoice_number": "INV-004",
+        "vendor_name": "Apex Strategy Group",
+        "po_number": "PO-2025-189",
+        "date": "2026-01-15",
+        "service_period": "Dec 2025",
+        "dept": "Operations",
+        "total": 8700,
+        "line_items": [
+            {
+                "description": "Operational efficiency assessment – Dec 2025",
+                "amount": 7500,
+                "treatment": "Accrual — service before invoice date",
+                "expected_gl": 2110
+            },
+            {
+                "description": "Travel expenses – Dec 2025 on-site visits",
+                "amount": 1200,
+                "treatment": "Accrual — service before invoice date",
+                "expected_gl": 2100
+            }
+        ]
+    },
+
+    {
+        "invoice_number": "INV-005",
+        "vendor_name": "BrightSpark Agency",
+        "po_number": "PO-2026-062",
+        "date": "2026-02-10",
+        "service_period": null,
+        "dept": "Marketing",
+        "total": 23500,
+        "line_items": [
+            {
+                "description": "Q1 digital ad campaign management",
+                "amount": 15000,
+                "treatment": "Expense",
+                "expected_gl": 5050
+            },
+            {
+                "description": "Branded company t-shirts (500 units)",
+                "amount": 2000,
+                "treatment": "Expense (physical goods)",
+                "expected_gl": 5000
+            },
+            {
+                "description": "Conference booth rental – Mar 2026",
+                "amount": 5000,
+                "treatment": "Expense",
+                "expected_gl": 5050
+            },
+            {
+                "description": "Conference attendee gift bags (branded)",
+                "amount": 1500,
+                "treatment": "Expense (physical goods)",
+                "expected_gl": 5000
+            }
+        ]
+    },
+
+    {
+        "invoice_number": "INV-006",
+        "vendor_name": "QuickPrint Co.",
+        "po_number": null,
+        "date": "2026-02-20",
+        "service_period": null,
+        "dept": "Marketing",
+        "total": 3800,
+        "line_items": [
+            {
+                "description": "Rush printing – sales brochures (5,000 units)",
+                "amount": 3800,
+                "treatment": "Exception: no PO, flag for review",
+                "expected_gl": null
+            }
+        ]
+    }
+]

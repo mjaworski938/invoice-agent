@@ -1,0 +1,33 @@
+# --- Environment / Sensitive Data ---
+.env
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Database ---
+*.db
+*.sqlite3
+
+# --- Python / Build Artifacts ---
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Editor Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
