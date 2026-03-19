@@ -64,11 +64,16 @@ python test_feedback.py
 - Displays accuracy score and the invoices the require adjustment
 
 ### 5. Data and Config
-`app/ai_context_sop.md`: SOP formatted and used as context for LLM
-`chart_of_accounts.json`: Chart of Accounts, contains GL, name, and category
-`purchase_orders.json`: Purchase orders seed data. Loaded into db and used as reference for PO matching stage
-`test_cases.json`: The 6 labeled invoice test casese 
-`unlabeled_invoices.json`: The unlabeled invoices used to demonstrate shadow processing
+- `app/ai_context_sop.md`: SOP formatted and used as context for LLM
+
+- `chart_of_accounts.json`: Chart of Accounts, contains GL, name, and category
+
+- `purchase_orders.json`: Purchase orders seed data. Loaded into db and used as reference for PO matching stage
+
+- `test_cases.json`: The 6 labeled invoice test casese 
+
+- `unlabeled_invoices.json`: The unlabeled invoices used to demonstrate shadow processing
+
 
 ### Design Decisions
 
